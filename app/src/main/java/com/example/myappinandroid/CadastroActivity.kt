@@ -11,9 +11,13 @@ class CadastroActivity : AppCompatActivity() {
         setContentView(R.layout.layout_cadastro)
         setSupportActionBar(findViewById(R.id.toolbar3))
 
-        val botaoSalvar = findViewById<Button>(R.id.button2)
-        botaoSalvar.setOnClickListener{
+        val botaoSalvar = findViewById<Button>(R.id.button3)
+        botaoSalvar.setOnClickListener {
             finish()
+        }
+            val botaoCancelar = findViewById<Button>(R.id.button2)
+            botaoCancelar.setOnClickListener{
+                finish()
         }
     }
 }
