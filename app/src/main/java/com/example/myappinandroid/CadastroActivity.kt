@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 class CadastroActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setTitle("Novo Contatinho")
+        setTitle("Add the Relative")
         setContentView(R.layout.layout_cadastro)
         setSupportActionBar(findViewById(R.id.toolbar3))
 
