@@ -8,7 +8,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 class ListaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setTitle("@Contatinhos")
+        setTitle("List of Relatives")
         setContentView(R.layout.layout_lista)
         //setSupportActionBar(findViewById(R.id.toolbar2))
 
